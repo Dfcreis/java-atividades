@@ -2,7 +2,6 @@ package programa;
 
 import entidades.AlunoNota;
 
-import java.sql.SQLOutput;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -24,11 +23,13 @@ public class Aluno {
         // informa a terceita nota do aluno
         System.out.println("Digite a terceira nota: ");
         aluno.nota3 = sc.nextDouble();
+        //verifica a condição da nota do aluno
         if (aluno.SomaNota() >= 60){
             System.out.println("FINAL GRADE = "+aluno.SomaNota());
             System.out.println("PASS");
         } else {
             System.out.println("FALIED");
+            System.out.println("FINAL GRADE = "+aluno.SomaNota());
             System.out.printf("Missing %.2f POINTS ",aluno.Reprovacao());
         }
 
