@@ -6,11 +6,11 @@ public class NumerosNegativos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Quantos nueros de -10 a 10 voce deseja digitar ?");
+        System.out.println("Quantos numeros de 0 a 10 voce deseja digitar ?");
         int n = sc.nextInt();
         int[] numeros = new int[n];
 
-        if (n >= -10 && n <= 10){
+        if (n > 0 && n <= 10){
         for (int i = 0; i < numeros.length; i++){
 
             System.out.println("Digite um numero:");
