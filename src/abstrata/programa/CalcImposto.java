@@ -1,8 +1,8 @@
-package abistrata.programa;
+package abstrata.programa;
 
-import abistrata.classabistrata.fisica;
-import abistrata.classabistrata.juridica;
-import abistrata.classabistrata.pessoa;
+import abstrata.classabstrata.fisica;
+import abstrata.classabstrata.juridica;
+import abstrata.classabstrata.pessoa;
 
 import java.util.ArrayList;
 import java.util.List;

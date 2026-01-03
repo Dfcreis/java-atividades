@@ -1,4 +1,4 @@
-package abistrata.classabistrata;
+package abstrata.classabstrata;
 
 public class juridica extends pessoa{
 

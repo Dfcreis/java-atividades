@@ -1,4 +1,4 @@
-package abistrata.classabistrata;
+package abstrata.classabstrata;
 
 public class fisica extends pessoa {
     private Double saude;
