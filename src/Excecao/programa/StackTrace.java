@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class StackTrace {
     public static void main(String[] args) {
         mathod1();
-        System.out.println("Programa finalizado");
+        System.out.println("Exercicio finalizado");
 
     }
 

@@ -7,10 +7,11 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Programa {
+public class Exercicio {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Informacao da conta");
         System.out.print("Numero da conta: ");
         int number = sc.nextInt();
