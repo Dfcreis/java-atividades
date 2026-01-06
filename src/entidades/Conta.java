@@ -37,7 +37,7 @@ public class Conta {
     }
     //TEXTO
     public String texto(){
-        return "Accont "
+        return "Account "
                 + numero
                 + ", titular:"
                 + titular

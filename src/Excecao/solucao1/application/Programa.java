@@ -43,7 +43,10 @@ public class Programa {
         } catch (DomainException e) {
             System.out.println("Erro in reservation "+e.getMessage());
         }
+        finally{
+            sc.close();
+        }
 
-        sc.close();
+
     }
 }
