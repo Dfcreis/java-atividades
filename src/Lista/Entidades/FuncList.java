@@ -1,4 +1,4 @@
-package entidades;
+package Lista.Entidades;
 
 public class FuncList {
     private Integer id;

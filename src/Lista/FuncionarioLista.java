@@ -1,6 +1,6 @@
 package Lista;
 
-import entidades.FuncList;
+import Lista.Entidades.FuncList;
 
 import java.util.ArrayList;
 import java.util.List;

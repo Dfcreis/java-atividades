@@ -1,6 +1,6 @@
 package programa;
 
-import entidades.SalarioPoo;
+import programa.Entidades.SalarioPoo;
 
 import java.util.Locale;
 import java.util.Scanner;

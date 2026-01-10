@@ -1,6 +1,6 @@
 package programa;
 
-import entidades.retanguloPoo;
+import programa.Entidades.retanguloPoo;
 
 import java.util.Locale;
 import java.util.Scanner;

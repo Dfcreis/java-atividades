@@ -1,4 +1,4 @@
-package entidades;
+package vetores.entidades;
 
 public class Hotel {
     private String nome;

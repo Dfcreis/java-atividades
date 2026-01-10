@@ -1,7 +1,7 @@
 package programa;
 
 
-import entidades.Ordem;
+import programa.Entidades.Ordem;
 import entidades.OrderItem;
 import entidades.Product;
 import entities.Enum.OrderStatus;

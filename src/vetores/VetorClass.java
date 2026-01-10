@@ -1,6 +1,6 @@
 package vetores;
 
-import entidades.Vetor;
+import vetores.entidades.Vetor;
 
 import java.util.Locale;
 import java.util.Scanner;

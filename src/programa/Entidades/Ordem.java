@@ -1,6 +1,7 @@
-package entidades;
+package programa.Entidades;
 
 
+import entidades.OrderItem;
 import entities.Enum.OrderStatus;
 
 import java.time.LocalDateTime;

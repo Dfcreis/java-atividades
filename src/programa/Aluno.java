@@ -1,6 +1,6 @@
 package programa;
 
-import entidades.AlunoNota;
+import programa.Entidades.AlunoNota;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -28,7 +28,7 @@ public class Aluno {
             System.out.println("FINAL GRADE = "+aluno.SomaNota());
             System.out.println("PASS");
         } else {
-            System.out.println("FALIED");
+            System.out.println("REPROVADO");
             System.out.println("FINAL GRADE = "+aluno.SomaNota());
             System.out.printf("Missing %.2f POINTS ",aluno.Reprovacao());
         }

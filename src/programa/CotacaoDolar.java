@@ -1,6 +1,6 @@
 package programa;
 
-import entidades.Dolar;
+import programa.Entidades.Dolar;
 
 import java.util.Locale;
 import java.util.Scanner;

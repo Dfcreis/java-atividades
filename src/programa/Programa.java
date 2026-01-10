@@ -3,7 +3,7 @@ package programa;
 
 import entidades.ContratoHora;
 import entidades.Departamento;
-import entidades.Trabalho;
+import programa.Entidades.Trabalho;
 import entities.Enum.NivelTrabalho;
 
 import java.text.ParseException;

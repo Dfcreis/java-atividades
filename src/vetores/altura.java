@@ -1,6 +1,6 @@
 package vetores;
 
-import entidades.Pessoas;
+import vetores.entidades.Pessoas;
 
 
 import java.util.Locale;

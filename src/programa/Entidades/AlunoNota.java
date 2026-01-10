@@ -1,4 +1,4 @@
-package entidades;
+package programa.Entidades;
 
 public class AlunoNota {
     public String name;

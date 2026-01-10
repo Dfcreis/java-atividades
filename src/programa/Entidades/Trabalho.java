@@ -1,5 +1,7 @@
-package entidades;
+package programa.Entidades;
 
+import entidades.ContratoHora;
+import entidades.Departamento;
 import entities.Enum.NivelTrabalho;
 
 import java.util.ArrayList;

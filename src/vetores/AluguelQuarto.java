@@ -1,6 +1,6 @@
 package vetores;
 
-import entidades.Hotel;
+import vetores.entidades.Hotel;
 
 import java.util.Locale;
 import java.util.Scanner;

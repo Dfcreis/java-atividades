@@ -1,6 +1,6 @@
 package programa;
 
-import entidades.Conta;
+import programa.Entidades.Conta;
 
 import java.util.Locale;
 import java.util.Scanner;
