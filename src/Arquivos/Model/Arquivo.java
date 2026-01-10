@@ -1,0 +1,35 @@
+package Arquivos.Model;
+
+public class Arquivo {
+    private String name;
+    private Double price;
+    private Integer quantity;
+
+    public Arquivo(String nome, Double price, Integer quantity) {
+        this.name = nome;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public Double getPrice() {
+        return price;
+    }
+    public void setValor(Double price) {
+        this.price = price;
+    }
+    public Integer getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+    public double calcularTotal(){
+        return price*quantity;
+    }
+}
